@@ -1,0 +1,154 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.heading{
+    background-color: #753422;
+    color: #FFEBC9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading a{
+    margin: 0px 30px 0px 10px;
+}
+.navigation ul{
+    display: flex;
+    padding: 0px;
+}
+.navigation ul li a:hover,.active{
+    text-decoration: underline;
+}
+@media screen and (max-width: 768px) {
+    .heading{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heading a{
+        margin: auto;
+    }
+    .navigation ul{
+        justify-content: space-between;
+    }
+    .navigation{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* intro section */
+.Intro_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+}
+.highlight_dark{
+    color: #753422;
+}
+.Intro_section img{
+    width: 60%;
+}
+@media screen and (max-width: 768px) {
+    .Intro_section img{
+        width: 100%;
+    }
+    .text{
+        width: 80%;
+    }
+}
+
+/* other sections */
+.dark_sec{
+    background-color: #FFEBC9;
+}
+.sec{
+    padding: 30px 0px;
+}
+.content{
+    width: 50%;
+    margin: auto;
+}
+.content p{
+    font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+    .content{
+        width: 80%;
+    }
+}
+.btn{
+    padding: 5px 10px;
+    width: 120px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 3px;
+    border: solid 2px #753422;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.btn:hover{
+    transform: scale(1.02);
+}
+.btn_dark{
+    background-color: #753422;
+    color: #FFEBC9;
+}
+.btn_light{
+    background-color: #fff;
+    color: #753422;
+}
+
+/* footer section */
+.foot{
+    background-color: #753422;
+    color: #FFEBC9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials h4{
+    margin: 10px;
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+}
+.ico{
+    margin-right: 3px;
+}
+
+/* project page */
+
+.highlight_light{
+    color: #D79771;
+}
+h5{
+    color: #B05B3B;
+}
+.my_project{
+    margin: 100px auto;
+}
+.sub_heading{
+    text-align: center;
+}
+.my_project h3{
+    color: #753422;
+    font-size: 1.3rem;
+}
